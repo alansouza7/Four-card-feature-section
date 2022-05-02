@@ -1,0 +1,21 @@
+@media (max-width:1160px){
+    body .container {
+        display: grid;
+    grid-template-areas: "info info info " 
+    "supervisor supervisor supervisor"
+    "team-building team-building team-building"
+    "karma karma karma"
+    "calculator calculator calculator";
+    }
+
+    .supervisor{
+        left: 0px;
+    }
+
+    .calculator {
+        right: 0px;
+    }
+}
+
+
+
